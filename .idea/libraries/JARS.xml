@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="JARS">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../AdTest/JARS" />
+      <root url="file://$PROJECT_DIR$/../AdTest/JARS/DB" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../AdTest/JARS" />
+      <root url="file://$PROJECT_DIR$/../AdTest/JARS/DB" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../AdTest/JARS" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../AdTest/JARS/DB" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../AdTest/JARS" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../AdTest/JARS/DB" recursive="false" type="SOURCES" />
+  </library>
+</component>
