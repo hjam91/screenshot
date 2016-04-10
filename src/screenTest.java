@@ -60,11 +60,19 @@ public class screenTest{
 
 
         if(BROWSER.equals("phantom")){
+
+            String userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36";
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
                     prop.getProperty("phantomDriverLocation"));
+            caps.setCapability(PhantomJSDriverService.PHANTOMJS_PAGE_SETTINGS_PREFIX + "userAgent", userAgent);
+
+
+            //System.setProperty("phantomjs.page.settings.userAgent", userAgent);
             driver = new PhantomJSDriver(caps);
-            driver.manage().window().setSize(new Dimension(1600, 1200));
+            driver.manage().window().setSize(new Dimension(1900, 1200));
+            System.out.println( ((JavascriptExecutor) driver).executeScript("return document.documentElement.clientWidth"));
+            System.out.println(((JavascriptExecutor) driver).executeScript("return document.documentElement.clientHeight"));
         }
 
         else if (BROWSER.equals("chrome")) {
