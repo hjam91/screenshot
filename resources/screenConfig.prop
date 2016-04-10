@@ -1,5 +1,5 @@
 URL=http://cnbc.com
-browser=phantom
+browser=chrome
 device=desktop
 testDataLocation=resources/NewsID.xlsx
 testDataLocationResults=resources/NewsIDResults.xlsx
