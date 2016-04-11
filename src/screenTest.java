@@ -150,7 +150,7 @@ public class screenTest{
         XSSFSheet sheet1Results = wbResults.getSheetAt(0);
 */
         Date now = new Date();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("MM.dd.yyyy - hh:mm");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy - hhmm");
         String time = dateFormat.format(now);
 
         // location = prop.getProperty("ScreenshotLocation");
