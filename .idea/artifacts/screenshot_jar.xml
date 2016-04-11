@@ -1,0 +1,72 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="screenshot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/screenshot_jar</output-path>
+    <root id="archive" name="screenshot.jar">
+      <element id="module-output" name="screenshot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/sac-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/bsh-2.0b4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jna-4.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/gson-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/guava-18.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/junit-4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jsp-api-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/xalan-2.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/ashot-1.4.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/httpmime-4.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/testng-6.9.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/htmlunit-2.18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-el-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-io-2.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/httpcore-4.4.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/xmlbeans-2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jcommander-1.48.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/nekohtml-1.9.22.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/xml-apis-1.4.01.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-exec-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/cssparser-0.9.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/httpclient-4.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/serializer-2.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/apache-mime4j-0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/cglib-nodep-2.1_3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-lang3-3.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/netty-3.5.7.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/poi-3.13-20150929.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/xercesImpl-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jna-platform-4.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/hamcrest-library-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/selenium-java-2.48.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/htmlunit-core-js-2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jasper-runtime-5.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/phantomjsdriver-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jasper-compiler-5.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/javax.servlet-api-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/poi-ooxml-3.13-20150929.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/commons-collections-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-io-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/selenium-java-2.48.2-srcs.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jasper-compiler-jdt-5.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-jmx-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/poi-examples-3.13-20150929.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/poi-excelant-3.13-20150929.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-http-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-util-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/poi-scratchpad-3.13-20150929.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-server-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-servlet-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/websocket-api-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-security-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-servlets-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/poi-ooxml-schemas-3.13-20150929.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/websocket-client-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/websocket-common-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/jetty-continuation-9.2.13.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/DB/jackson-core-2.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/DB/dropbox-core-sdk-1.8.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/DB/dropbox-core-sdk-2.0.1-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AdTest/JARS/DB/dropbox-core-sdk-2.0.1-sources.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
