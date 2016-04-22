@@ -132,14 +132,14 @@ public class screenTest{
         String ID;
         System.out.println("0");
 
+
         JOptionPane.showMessageDialog(null, "This program will take a screenshot of the ID's provided in the test data file, " +
                 "So please sit back and relax, this will take a while. Press OK and please select a test data file.");
 
         JFileChooser chooser = new JFileChooser();
         File test = new File("");
         int Checker;
-        File NameDir;
-        File testDataSrc = null;
+        File NameDir, testDataSrc = null;
 
         chooser.setCurrentDirectory(test);
         chooser.setDialogTitle("Choose a Test Data File");
