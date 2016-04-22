@@ -83,11 +83,13 @@ public class screenTest{
             ChromeOptions options;
 
             options = new ChromeOptions();
-            options.addArguments("disable-plugins");
+
+
+           /* options.addArguments("disable-plugins");
             options.addArguments("disable-extensions");
             options.addArguments("--disable-internal-flash");
             options.addArguments("--disable-bundled-ppapi-flash");
-            options.addArguments("--disable-plugins-discovery");
+            options.addArguments("--disable-plugins-discovery");*/
 
             options.addArguments("--mute-audio");
             driver = new ChromeDriver(options);
@@ -129,6 +131,9 @@ public class screenTest{
         // This part is to read data from file
         String ID;
         System.out.println("0");
+
+        JOptionPane.showMessageDialog(null, "This program will take a screenshot of the ID's provided in the test data file, " +
+                "So please sit back and relax, this will take a while. Press OK and please select a test data file.");
 
         JFileChooser chooser = new JFileChooser();
         File test = new File("");
