@@ -26,6 +26,7 @@ import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.screentaker.ViewportPastingStrategy;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
 
 import java.awt.image.BufferedImage;
@@ -125,13 +126,34 @@ public class screenTest{
 
     public static void main(String[]args) throws IOException, InterruptedException {
 
-        setUp();
-
         // This part is to read data from file
         String ID;
         System.out.println("0");
 
-        File testDataSrc = new File(prop.getProperty("testDataLocation"));
+        JFileChooser chooser = new JFileChooser();
+        File test = new File("");
+        int Checker;
+        File NameDir;
+        File testDataSrc = null;
+
+        chooser.setCurrentDirectory(test);
+        chooser.setDialogTitle("Choose a Test Data File");
+        Checker = chooser.showOpenDialog(null);
+
+        if (Checker == JFileChooser.APPROVE_OPTION){
+
+            NameDir = chooser.getCurrentDirectory();
+            testDataSrc = chooser.getSelectedFile();
+        }
+
+        else{
+            System.out.println("You didnt choose a file, Program will shutdown");
+            return;
+        }
+
+        setUp();
+
+        //File testDataSrc = new File(prop.getProperty("testDataLocation"));
         FileInputStream testData = new FileInputStream(testDataSrc);
         XSSFWorkbook wb = new XSSFWorkbook(testData);
         XSSFSheet sheet1 = wb.getSheetAt(0);
@@ -256,13 +278,20 @@ public class screenTest{
             if (prop.getProperty("device").equals("desktop")) {
 
                 File directory = new File(newPath + "/" + i +" - "+ templateName);
-                directory.mkdir();
 
-                ImageIO.write(screenshot.getImage(), "PNG", new File(directory +"/" +templateName + ".png"));
+
+                //Making Template Directory Folders
+                // directory.mkdir();
+
+
+              //  ImageIO.write(screenshot.getImage(), "PNG", new File(directory +"/" +templateName + ".png"));
+
+                ImageIO.write(screenshot.getImage(), "PNG", new File(newPath +"/" +templateName + ".png"));
                 // FileUtils.copyFile(scrFile, new File(newPath + "/" + templateName + "/" + templateName + ".png"));
             } else {
 
-                ImageIO.write(screenshot.getImage(), "PNG", new File(newPath + "/" + i +" - MOBILE- "+ templateName + "/" + templateName +  "- MOBILE.png"));
+                ImageIO.write(screenshot.getImage(), "PNG", new File(newPath + "/" + templateName +  "- MOBILE.png"));
+                //ImageIO.write(screenshot.getImage(), "PNG", new File(newPath + "/" + i +" - MOBILE- "+ templateName + "/" + templateName +  "- MOBILE.png"));
                 // FileUtils.copyFile(scrFile, new File(newPath + "/" + templateName + "- MOBILE.png"));
             }
             System.out.println(newPath);
